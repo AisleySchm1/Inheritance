@@ -3,6 +3,7 @@ public class BoardGame extends Game
 	{
 public void winGame()
 {
+	super.winGame();
 	System.out.println("Take that suckers!");
 }
 

@@ -2,11 +2,17 @@
 public abstract class Game
 
 	{
+	
+	public Game()
+	{
+		super();
+	}
 
 public abstract  void readRules();
 	
 public void winGame()
 {
+	
 	System.out.println("I win!");	
 }
 

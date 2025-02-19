@@ -4,9 +4,11 @@ public class Driver
 
 		public static void main(String[] args)
 			{
-				System.out.println("Hello World!");
+				Game x = new BoardGame();
 				
-				System.out.println("Hello World!");
+				x.winGame();
+				x.readRules();
+				x.countPlayers();
 				
 			
 			}

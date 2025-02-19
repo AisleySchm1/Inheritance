@@ -1,6 +1,7 @@
 
 public class BoardGame extends Game
-	{
+
+{
 public void winGame()
 {
 	super.winGame();

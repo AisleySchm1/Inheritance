@@ -6,10 +6,12 @@ public class Driver
 			{
 				Game x = new BoardGame();
 				
-				x.winGame();
-				x.readRules();
 				x.countPlayers();
-				
+				x.readRules();
+				((BoardGame)x).rollDice();
+				((BoardGame)x).getGamesToPlay();
+				x.winGame();
+				x.newGame();
 			
 			}
 
